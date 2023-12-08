@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>option</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        .book{
+            position: relative;
+            padding: 5% 3%;
+            border-bottom: #2888d1 1px solid;
+            color: white;
+        }
+        .book i{
+            color: #52ABED;
+            position: absolute;
+            left: 5px;
+            top:30%;
+            transform: translateY(-50);
+            font-size: 25px;
+        }
+        .book a{
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            color: #2888d1;
+            margin-left: 13%;
+        }
+
+        a:hover{
+            color:white;
+            background-color: #52ABED;
+        }
+        .book:hover{
+            color: white;
+            background-color: #52ABED;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="book">
+        <i class='bx bxs-book-add'></i>
+        <a href="bookM.html" target="main">Manage Books</a><br>
+    </div>
+    <div class="book">
+        <i class='bx bxs-bookmark-alt-plus'></i>
+        <a href="bookR.html" target="main">Release a Books</a><br>
+
+    </div>
+    <div class="book">
+        <i class='bx bxs-bookmark-alt-minus'></i>
+        <a href="bookO.html" target="main">Books Out</a><br>
+
+    </div>
+</body>
+</html>
