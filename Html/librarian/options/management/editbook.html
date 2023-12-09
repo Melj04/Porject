@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="box1">Books</div>
+        <div class="box2">
+            <a href="addBooks.html"><i class='bx bx-add-to-queue' ></i></a>
+            <a href="editbook.html" class="edit"><i class='bx bx-edit' ></i></a><br>
+        </div>
+    </header><hr>
+    <div class="bookInput">
+        <form action="">
+            <br><h1>Edit Book Details</h1>
+            <div class="container">
+                <div class="inputName">
+                    <p>Accession No.</p>
+                    <p>Title: </p>
+                    <p>Date Publish:</p>
+                    <p>Author:</p>
+                    </div>
+                    <div class="inputbox">
+                     <input type="text" class="Accession" placeholder="2xxxxxx"> <br>
+                    <input type="text" class="title" placeholder="snowhite"><br>
+                    <input type="text" class="dateP" placeholder="0000-00-00"><br>
+                    <input type="text" class="Author" placeholder="Dwarf"><br>
+        
+                    </div>
+            </div>
+            
+            <button class="cancel">CANCEL</button>
+            <button class="save">SAVE</button>
+        </form>
+    </div>      
+</body>
+</html>
