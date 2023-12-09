@@ -50,7 +50,7 @@ table{
     border-radius: 10px;
 }
 thead{
-    background-color: black;
+    background-color: #1a4364ec;
 }
 .head1{border-top-left-radius: 10px;}
 .head2{border-top-right-radius: 10px;}
