@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 240, 232);
+}
+
+hr{
+    width: 96%;
+    margin-left: 2%;
+}
+
+.bookInput{
+    width: 50%;
+    height: 75vh;
+    background: white;
+    margin-top: 5%;
+    margin-left: 25%;
+    padding-right: 5%;
+    border-radius: 10px;
+    font-size: 200;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+input{
+    background: white;
+    border: none;
+    outline: none;
+    border:2px solid #2888d1;
+    color: #135588;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+    height: 7vh;
+}
+
+.container{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-content: center;
+    margin-bottom: 15px;
+}
+.inputName{
+    width: 30%;
+    height: 100%;
+    text-align: right;
+    padding-left: -10%;
+}
+.inputbox{
+    width: 70%;
+    height: 100vh;
+    text-align: left;
+    padding-right: 3px;
+}
+p{
+    margin-top: 21px ;
+    padding-right: 6px;
+    font-size: x-large;
+}
+.Accession{
+width: 40%;
+font-size: 20px;
+}
+.title{
+    width: 90%;
+    font-size: 20px;
+    }
+.dateP{
+    width: 55%;
+    font-size: 20px;
+    }
+.Author{
+    font-size: 20px;
+    width: 75%;
+    }
+   
+    .cancel{
+        margin-left: 60% ;
+        margin-right: 10px;
+        font-size: large;
+        font-weight: 600 ;
+        color: rgb(114, 112, 109);
+        border: none;
+        padding-top: 5px;
+        background-color: white;
+    }
+
+    .save{
+        background-color: #2888d1;
+        color: white;
+        border-radius: 30px;
+        margin-left:30%;
+        padding-top: 0.7px;
+        border: #2888d1 1px solid;
+        width: 20%;
+        height: 5vh;
+        font-weight: 700;
+        font-size: large;
+    }
+
+    select{
+        width: 40%;
+        height: 7%;
+        padding-left: 2px;
+        font-size: 20px;
+        border: 2px solid #2888d1;
+        border-radius: 4px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    </style>
+    
+</head>
+<body>
+    <div class="bookInput">
+        <form action="">
+            <br><h2>Edit User</h2><br><br>
+            <div class="container">
+                <div class="inputName">
+                    <p>ID</p><br>
+                    <p>Username </p><br>
+                    <p>Role</p><br>
+                    <p>Password</p><br>
+                    </div>
+                    <div class="inputbox">
+                     <input type="text" class="Accession" placeholder="ID"> <br><br>
+                    <input type="text" class="title" placeholder="Username"><br><br>
+                    <select id="role">
+                        <option value="L">Librarian</option>
+                        <option value="A">Admin</option>
+                        </select><br><br>
+                    <input type="text" class="Author" placeholder="Dwarf"><br><br><br>
+        
+            <button class="save"><a href="user.html">SAVE</a></button>
+        </div>
+    </div>
+        </form>
+    </div>      
+</body>
+</html>

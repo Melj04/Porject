@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 240, 232);
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-left: 1%;
+    margin-bottom: 0;
+    background-color: white;
+}
+.box2 {
+    margin-left: 80%;
+    color: #5fafec;
+    width: 25%;
+    display: flex;
+}
+hr{
+    width: 96%;
+    margin-left: 2%;
+}
+.box2 i{
+    font-size: 50px;
+}
+
+.tbox{
+    height: 70vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-bottom: 1px solid rgba(14, 13, 13, 0.349);
+    border-right: rgba(14, 13, 13, 0.349) 1px solid;
+    border-radius: 10px;
+}
+table{
+    border-collapse: collapse;
+    border: none;
+    width:100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+thead{
+    background-color: #1a4364ec;
+}
+.head1{border-top-left-radius: 10px;}
+.head2{border-top-right-radius: 10px;}
+.rows:nth-child(odd){
+    background-color: lightgray;
+}
+a{text-decoration: none;}
+th{
+    width: 25%;
+    height: 7vh;
+    color: white;
+    
+}
+td{
+    width: 25%;
+    height: 6vh;
+    color: gray;
+}
+.add{
+    border-bottom: 2px solid black;
+    height: 9vh;
+}
+.edit{
+    border-bottom: 2px solid black;
+    height: 9vh;
+}
+.bookInput{
+    width: 60%;
+    height: 60vh;
+    background: white;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 10px;
+    font-size: 200;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+input{
+    background: white;
+    border: none;
+    outline: none;
+    border:2px solid #2888d1;
+    color: #135588;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+    height: 7vh;
+}
+
+.container{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.inputName{
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+.inputbox{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+}
+p{
+    margin-top: 24px ;
+    padding-right: 4px;
+    font-size: x-large;
+}
+.Accession{
+width: 40%;
+}
+.title{
+    width: 90%;
+    }
+.dateP{
+    width: 55%;
+    }
+.Author{
+    width: 75%;
+    }
+   
+    .cancel{
+        margin-left: 60% ;
+        margin-right: 10px;
+        font-size: large;
+        font-weight: 600 ;
+        color: rgb(114, 112, 109);
+        border: none;
+        padding-top: 5px;
+        background-color: white;
+    }
+
+    .save{
+        background-color: #2888d1;
+        color: white;
+        border-radius: 30px;
+        border: #2888d1 1px solid;
+        width: 15%;
+        height: 5vh;
+        font-weight: 700;
+        font-size: large;
+    }
